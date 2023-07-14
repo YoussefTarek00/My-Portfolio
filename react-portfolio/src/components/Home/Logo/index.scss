@@ -1,0 +1,44 @@
+.logo-container {
+  z-index: 0;
+  width: 400px;
+  height: 609px;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 15%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+
+  .solid-logo {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: 70px;
+    left: 0;
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    // box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
+    // order: 1;
+    // justify-self: center;
+    animation: profile_animate 8s ease-in-out infinite 1s;
+    // border-radius: 50%;
+    border: 5px solid #4b494d;
+    outline: 5px solid #bababa;
+    // border-radius: 12rem 12rem 0 0;
+    // opacity: 0;
+    z-index: 1;
+  }
+  @keyframes profile_animate {
+    0%{
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50%{
+      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100%{
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+  }
+}
