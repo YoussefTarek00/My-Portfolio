@@ -79,7 +79,29 @@
     }
   }
 }
+@media only screen and (max-width: 430px) {
+  .home-page {
+    .text-zone {
+      h1 {
+        width: 70dvw;
+        word-wrap: break-word;
+        font-size: 35px !important;
 
+        img {
+          width: 30px;
+        }
+      }
+    }
+  }
+  .logo-container {
+    .solid-logo {
+      top: 40%;
+      left: 40%;
+      width: 150px !important;
+      height: 250px !important;
+    }
+  }
+}
 @media only screen and (max-width: 768px) {
   .tags,
   .home-page h1:before,
@@ -103,20 +125,21 @@
   }
 
   .logo-container {
+    height: 850px !important;
     position: relative;
     padding-top: 65%;
-    width: 50% !important;
-    top: 400px !important;
-    left: 10% !important;
+    // width: 50% !important;
+    top: 300px !important;
+    // left: 10% !important;
   }
 }
 @media only screen and (max-width: 960px) {
   .home-page .text-zone {
-    position: initial;
-    width: 100%;
-    transform: none;
+    //   position: initial;
+    // width: 100%;
+    // transform: none;
     padding: 10px;
-    box-sizing: border-box;
+    // box-sizing: border-box;
   }
 
   .home-page .flat-button {
@@ -127,17 +150,17 @@
   }
   .logo-container {
     position: relative;
-    width: 50% !important;
-    // height: 60%;
-    top: 400px !important;
-    left: 10% !important;
+    // width: 50% !important;
+    // height: 70%;
+    // top: 400px !important;
+    // left: 55% ;
   }
 }
 @media only screen and (max-width: 1124px) {
-  .home-page .text-zone {
-    position: relative;
-    width: 100%;
-  }
+  // .home-page .text-zone {
+  //   position: relative;
+  //   width: 100%;
+  // }
   .logo-container {
     position: absolute;
     right: 10px;
