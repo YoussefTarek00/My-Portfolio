@@ -128,18 +128,12 @@
     height: 850px !important;
     position: relative;
     padding-top: 65%;
-    // width: 50% !important;
     top: 300px !important;
-    // left: 10% !important;
   }
 }
 @media only screen and (max-width: 960px) {
   .home-page .text-zone {
-    //   position: initial;
-    // width: 100%;
-    // transform: none;
     padding: 10px;
-    // box-sizing: border-box;
   }
 
   .home-page .flat-button {
@@ -150,17 +144,9 @@
   }
   .logo-container {
     position: relative;
-    // width: 50% !important;
-    // height: 70%;
-    // top: 400px !important;
-    // left: 55% ;
   }
 }
 @media only screen and (max-width: 1124px) {
-  // .home-page .text-zone {
-  //   position: relative;
-  //   width: 100%;
-  // }
   .logo-container {
     position: absolute;
     right: 10px;

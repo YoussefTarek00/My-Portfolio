@@ -85,7 +85,6 @@
 .skills-container {
   width: 50%;
   top: 0;
-  // padding-top: 18%;
   position: absolute;
   right: 0;
   overflow: hidden;
@@ -95,11 +94,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 0.5rem;
-
-  // display: flex;
-  // flex-wrap: wrap;
-  // align-items: center;
-  // justify-content: space-between;
   width: 350px;
   height: 450px;
   font-size: 70px;
