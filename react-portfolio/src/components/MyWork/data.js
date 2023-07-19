@@ -70,7 +70,7 @@ export const data = [
     image: IMG7,
     title: 'Shopping-Cart using Html, Css, React.js, Json-Server API',
     github: 'https://github.com/YoussefTarek00/shopping-cart-React.js ',
-    demo: 'http://good-men.surge.sh',
+    demo: 'http://miniature-business.surge.sh',
   },
   {
     id: 8,
