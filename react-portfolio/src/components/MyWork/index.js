@@ -4,6 +4,7 @@ import { data } from './data'
 import Loader from 'react-loaders'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
+// import GoToUpButton from '../GoToUpButton'
 
 const MyWork = () => {
   return (
@@ -36,6 +37,7 @@ const MyWork = () => {
                   </a>
                 </div>
               </article>
+              {/* <GoToUpButton /> */}
             </>
           )
         })}

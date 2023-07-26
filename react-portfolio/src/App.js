@@ -8,6 +8,7 @@ import './App.scss'
 import Skills from './components/Skills'
 import MyWork from './components/MyWork'
 
+
 function App() {
   return (
     <>

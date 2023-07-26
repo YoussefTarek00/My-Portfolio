@@ -4,9 +4,20 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import LogoTitle from '../../assets/images/logo-s.png'
 import Logo from './Logo'
+import Particles from "react-tsparticles"
+import particlesconfig from './Config/particles.config'
 import './index.scss'
+import { loadFull } from "tsparticles";
 
 const Home = () => {
+  const particlesInit = async (main) => {
+		console.log(main);
+		await loadFull(main);
+	};
+	const particlesLoaded = (container) => {
+		console.log(container);
+	};
+
   const [letterClass, setLetterClass] = useState('text-animate')
 
   const nameArray = ['o', 'u', 's', 's', 'e', 'f',',']
@@ -35,6 +46,7 @@ const Home = () => {
 
   return (
     <>
+    
       <div className="container home-page">
         <div className="text-zone">
           <h1>
@@ -61,14 +73,16 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Front End Developer / React.Js / Freelancer</h2>
+          <h2>Front-End Developer / React.Js / Freelancer</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
         </div>
         <Logo />
       </div>
-
+      <Particles params={particlesconfig } id="tsparticles"
+			init={particlesInit}
+			loaded={particlesLoaded}/>
       <Loader type="pacman" />
     </>
   )

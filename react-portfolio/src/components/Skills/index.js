@@ -1,6 +1,6 @@
 import Loader from 'react-loaders'
 import './index.scss'
-import { SiTailwindcss,SiTypescript,SiMui,SiReacthookform } from 'react-icons/si'
+import { SiTailwindcss,SiTypescript,SiMui,SiReacthookform,SiWebpack,SiCanva } from 'react-icons/si'
 import cv from '../../assets/cv/Y.T-CV.pdf'
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -40,10 +40,13 @@ const Skills = () => {
             <span className="tech-tag">React.Js</span>,
             <span className="tech-tag">React.Ts</span>,
             <span className="tech-tag">ReactHookForm</span>,
+            <span className="tech-tag">Particles.js</span>,
+            <span className="tech-tag">Canvas API</span>,
             <span className="tech-tag">Bootstrap</span>,
             <span className="tech-tag">TailwindCss</span>,
             <span className="tech-tag">Material UI </span>,
             <span className="tech-tag">Sass</span>,
+            <span className="tech-tag">Webpack</span>,
             <span className="tech-tag">Git</span>,
             <span className="tech-tag">GitHub.</span>
           </p>
@@ -90,6 +93,9 @@ const Skills = () => {
               <SiReacthookform color="#f50c95"  />
             </div>
             <div className="icon">
+              <SiCanva color="#F06529"  />
+            </div>
+            <div className="icon">
               <FontAwesomeIcon icon={faBootstrap} color="#553C7B" />
             </div>
             <div className="icon">
@@ -100,6 +106,9 @@ const Skills = () => {
             </div>
             <div className="icon">
               <FontAwesomeIcon icon={faSass} color="#c69" />
+            </div>
+            <div className="icon">
+              <SiWebpack color="#1C78C0" />
             </div>
             <div className="icon">
               <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
