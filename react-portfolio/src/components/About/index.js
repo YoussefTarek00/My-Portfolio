@@ -51,6 +51,7 @@ const About = () => {
           <div id="stars"></div>
           <div id="stars2"></div>
           <div id="stars3"></div>
+          
           <div className="cubespinner">
             <div className="face1">
               <FontAwesomeIcon icon={faSass} color="#c69" />

@@ -3,11 +3,9 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import Layout from './components/Layout'
-
-import './App.scss'
 import Skills from './components/Skills'
 import MyWork from './components/MyWork'
-
+import './App.scss'
 
 function App() {
   return (
@@ -19,7 +17,6 @@ function App() {
           <Route path="skills" element={<Skills />} />
           <Route path="mywork" element={<MyWork />} />
           <Route path="contact" element={<Contact />} />
-          
         </Route>
       </Routes>
     </>

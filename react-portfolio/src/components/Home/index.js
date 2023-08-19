@@ -11,7 +11,6 @@ import { loadFull } from "tsparticles";
 
 const Home = () => {
   const particlesInit = async (main) => {
-		console.log(main);
 		await loadFull(main);
 	};
 	const particlesLoaded = (container) => {
