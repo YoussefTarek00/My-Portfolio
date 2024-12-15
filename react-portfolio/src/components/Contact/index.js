@@ -91,7 +91,7 @@ const Contact = () => {
            <br />
           Giza Government <br />
           <br />
-          <span>youssef3tarek@gmail.com</span>
+          <span>ytarek.dev@gmail.com</span>
         </div>
         <div className="map-wrap">
           <MapContainer center={[30.015051,31.212306]} zoom={13}>

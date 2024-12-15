@@ -15,7 +15,7 @@ const Logo = () => {
         duration: 1,
         opacity: 1,
       })
-      
+
 
     gsap.fromTo(
       solidLogoRef.current,
@@ -39,7 +39,7 @@ const Logo = () => {
         alt="JavaScript,  Developer"
       />
 
-     
+
     </div>
   )
 }

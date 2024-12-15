@@ -45,7 +45,7 @@ const Home = () => {
 
   return (
     <>
-    
+
       <div className="container home-page">
         <div className="text-zone">
           <h1>
@@ -72,7 +72,7 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>Front-End Developer / React.Js / Freelancer</h2>
+          <h2>Front-End Developer / MERN Stack / Freelancer</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>

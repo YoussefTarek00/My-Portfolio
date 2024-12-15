@@ -33,7 +33,7 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
+            I'm a very ambitious developer looking for a role in an
             established IT company with the opportunity to work with the latest
             technologies on challenging and diverse projects.
           </p>
@@ -51,7 +51,7 @@ const About = () => {
           <div id="stars"></div>
           <div id="stars2"></div>
           <div id="stars3"></div>
-          
+
           <div className="cubespinner">
             <div className="face1">
               <FontAwesomeIcon icon={faSass} color="#c69" />

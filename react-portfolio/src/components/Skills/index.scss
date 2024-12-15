@@ -98,7 +98,6 @@
   font-size: 70px;
   margin: auto;
 }
-
 @media (max-width: 960px) {
   .container {
     top: 0 !important;
@@ -109,7 +108,6 @@
     right: 0;
     width: 50%;
   }
-  
 
   .text-zone {
     position: static !important;
@@ -140,7 +138,7 @@
     left: 8%;
   }
   .skills-icons {
-      width:300px ;
+    width: 300px;
   }
 
   h1 {
@@ -148,7 +146,7 @@
     line-height: 40px !important;
   }
 }
-@media  only screen and (max-width: 1380px) {
+@media only screen and (max-width: 1380px) {
   .skills-icons {
     padding-top: 15% !important;
   }

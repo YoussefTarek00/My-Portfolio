@@ -36,4 +36,15 @@
       border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
     }
   }
+  @media screen and (max-width: 768px) {
+    .solid-logo {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 1024px) {
+    .solid-logo {
+      left: auto;
+      right: 0px;
+    }
+  }
 }
