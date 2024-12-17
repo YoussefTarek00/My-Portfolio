@@ -8,7 +8,9 @@
   bottom: 0;
   left: auto;
   margin: auto;
-
+  @media screen and (min-width: 2560px) {
+    bottom: 400px;
+  }
   .solid-logo {
     position: absolute;
     top: auto;
@@ -18,7 +20,6 @@
     margin: auto;
     width: 300px;
     height: 400px;
-
     animation: profile_animate 8s ease-in-out infinite 1s;
     border: 5px solid #4b494d;
     outline: 5px solid #bababa;
@@ -44,7 +45,9 @@
   @media screen and (max-width: 1024px) {
     .solid-logo {
       left: auto;
-      right: 0px;
+      right: 90px;
+      width: 200px;
+      height: 300px;
     }
   }
 }

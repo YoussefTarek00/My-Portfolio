@@ -61,7 +61,7 @@
 }
 
 .container.skills .text-zone p {
-  width: 126%;
+  width: 134%;
   font-size: 16px;
   line-height: 18px;
   color: #fff;
@@ -87,6 +87,9 @@
   top: 0;
   position: absolute;
   right: 0;
+  @media (min-width: 2560px) {
+    top: 300px !important;
+  }
 }
 
 .skills-icons {
@@ -154,5 +157,15 @@
   h1 {
     font-size: 54px !important;
     line-height: 45px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .skills-container {
+    padding-top: 100px;
+  }
+
+  .skills-icons {
+    overflow-y: auto;
+    margin: auto;
   }
 }

@@ -1,6 +1,6 @@
 import Loader from 'react-loaders'
 import './index.scss'
-import { SiTailwindcss,SiTypescript,SiMui,SiReacthookform,SiWebpack,SiCanva, SiJest, SiBitbucket, SiNodedotjs, SiMongodb, SiExpress, SiTestinglibrary, SiJira } from 'react-icons/si'
+import { SiTailwindcss,SiTypescript,SiMui,SiReacthookform,SiWebpack,SiCanva, SiJest, SiBitbucket, SiNodedotjs, SiMongodb, SiExpress, SiTestinglibrary, SiJira, SiDocker, SiNginx, SiStorybook} from 'react-icons/si'
 import cv from '../../assets/cv/Y.T-CV.pdf'
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -34,36 +34,7 @@ const Skills = () => {
           <p>
             An Astonishing Web Developer skilled in technologies such as
             <br />
-            <span className="tech-tag">HTML5</span>,
-            <span className="tech-tag">CSS3</span>,
-            <span className="tech-tag">JavaScript</span>,
-            <span className="tech-tag">TypeScript</span>,
-            <span className="tech-tag">React.Js</span>,
-            <span className="tech-tag">React.Ts</span>,
-            <span className="tech-tag">Node.js</span>,
-            <span className="tech-tag">Express.js</span>,
-            <span className="tech-tag">MongoDB</span>,
-            <span className="tech-tag">ReactHookForm</span>,
-            <span className="tech-tag">Particles.js</span>,
-            <span className="tech-tag">Canvas API</span>,
-            <span className="tech-tag">Bootstrap</span>,
-            <span className="tech-tag">TailwindCss</span>,
-            <span className="tech-tag">Material UI </span>,
-            <span className="tech-tag">Sass</span>,
-            <span className="tech-tag">Design Patterns</span>,
-            <span className="tech-tag">Webpack</span>,
-            <span className="tech-tag">PWAs</span>,
-            <span className="tech-tag">Debugging</span>,
-            <span className="tech-tag">Unit Test</span>,
-            <span className="tech-tag">Integration Test</span>,
-            <span className="tech-tag">React Testing Library</span>,
-            <span className="tech-tag">Jest</span>,
-            <span className="tech-tag">MSW</span>,
-            <span className="tech-tag">Atlassian Jira</span>,
-            <span className="tech-tag">Bitbucket</span>,
-            <span className="tech-tag">Git</span>,
-            <span className="tech-tag">GitHub.</span>
-
+            <span className="tech-tag">HTML5, CSS3, JavaScript, TypeScript, React.Js, Node.js, Express.js, MongoDB,  ReactHookForm, Particles.js, Canvas API, Bootstrap, TailwindCss, Material UI, Sass, StoryBook, Design Patterns, SOLID Principles, Docker, Nginx, Webpack, PWAs, Debugging, Unit Test, Integration Test, React Testing Library, Jest, MSW, Atlassian Jira, Bitbucket, Git, GitHub.</span>
           </p>
           <p>
             I’m not a designer but I have a good sense of aesthetics, and good
@@ -130,6 +101,15 @@ const Skills = () => {
             </div>
             <div className="icon">
               <FontAwesomeIcon icon={faSass} color="#c69" />
+            </div>
+            <div className="icon">
+            <SiStorybook color="#FF4785" />
+            </div>
+            <div className="icon">
+            <SiDocker  color="#2496ed" />
+            </div>
+            <div className="icon">
+            <SiNginx color="#000000" />
             </div>
             <div className="icon">
               <SiWebpack color="#1C78C0" />
