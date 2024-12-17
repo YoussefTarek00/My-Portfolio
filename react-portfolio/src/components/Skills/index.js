@@ -34,7 +34,9 @@ const Skills = () => {
           <p>
             An Astonishing Web Developer skilled in technologies such as:
             <br />
-            <span className="tech-tag">HTML5, CSS3, JavaScript, TypeScript, React.Js, Node.js, Express.js, MongoDB,  ReactHookForm, Particles.js, Canvas API, Bootstrap, TailwindCss, Material UI, Sass, StoryBook, Design Patterns, SOLID Principles, Docker, Nginx, Webpack, PWAs, Debugging, Unit Test, Integration Test, React Testing Library, Jest, MSW, Atlassian Jira, Bitbucket, Git, GitHub.</span>
+            <span className="tech-tag">
+              HTML5, CSS3, JavaScript, TypeScript, React.Js, Node.js, Express.js, MongoDB,  ReactHookForm, Particles.js, Canvas API, Bootstrap, TailwindCss, Material UI, Sass, StoryBook, Design Patterns, SOLID Principles, Docker, Nginx, Webpack, PWAs, Debugging, Unit Test, Integration Test, React Testing Library, Jest, MSW, Atlassian Jira, Bitbucket, Git, GitHub.
+            </span>
           </p>
           <p>
             I’m not a designer but I have a good sense of aesthetics, and good
