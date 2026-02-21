@@ -14,7 +14,7 @@ import {
   faEye,
   faDownload,
 } from '@fortawesome/free-solid-svg-icons'
-import CV from '../../assets/cv/Y.T-CV.pdf'
+import CV from '../../assets/cv/Youssef Tarek - Full Stack Software Engineer Resume.pdf'
 import { Link, NavLink } from 'react-router-dom'
 
 const Sidebar = () => {
@@ -79,7 +79,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/youssef-tarek-317ab125b/"
+            href="https://linkedin.com/in/youssefTarek-dev"
             target="_blank"
             rel="noreferrer"
           >

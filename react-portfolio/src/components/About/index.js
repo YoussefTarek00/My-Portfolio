@@ -33,17 +33,22 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            Full Stack Software Engineer with 4+ years of experience building
+            scalable web applications, SaaS platforms, and AI-powered systems.
+            Expert in React.js, Node.js, REST APIs, MongoDB, PostgreSQL, and
+            workflow automation.
           </p>
           <p align="LEFT">
-            I'm quiet confident, very humble, naturally curious, and perpetually
-            working on improving my chops one design problem at a time.
+            Skilled in clean architecture, performance optimization, and
+            delivering maintainable, production-ready solutions. Passionate about
+            leveraging AI agents and automation to boost productivity and solve
+            complex business challenges.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a social
-            person, photography enthusiast, and tech-obsessed!!!
+            Experienced in developing multi-tenant SaaS platforms with analytics
+            dashboards and secure REST APIs. Built enterprise HR systems and
+            transformed web applications into deployable mobile apps for both
+            Android and iOS platforms using PWA, TWA, and Capacitor technologies.
           </p>
         </div>
 

@@ -21,7 +21,34 @@ import IMG18 from '../../assets/images/git repos.png'
 import IMG19 from '../../assets/images/cruid.png'
 import IMG20 from '../../assets/images/image editor.png'
 
+import IMG21 from '../../assets/images/ofoq.png'
+import IMG22 from '../../assets/images/urtwin.png'
+import IMG23 from '../../assets/images/urtwinDashboard.png'
+
 export const data = [
+  {
+    id: 0,
+    image: IMG21,
+    title: 'United Ofoq - Enterprise HR System | SSO & Main Module',
+    github: '',
+    demo: 'https://sso.orgarise.org/',
+  },
+  {
+    id: -1,
+    image: IMG22,
+    title: 'DGTEC - Urtwin App | Multi-tenant SaaS Application',
+    github: '',
+    demo: 'https://app.urtwin.ai/',
+  },
+  {
+    id: -2,
+    image: IMG23,
+    title: 'DGTEC - Urtwin Dashboard | Multi-tenant SaaS Platform with Analytics',
+    github: '',
+    demo: 'https://dashboard.urtwin.ai/',
+  },
+
+
   {
     id: 1,
     image: IMG1,

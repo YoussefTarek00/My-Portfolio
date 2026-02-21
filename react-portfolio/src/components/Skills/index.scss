@@ -97,9 +97,30 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 0.5rem;
   width: 350px;
-  height: 450px;
+  max-height: 800px;
   font-size: 70px;
   margin: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 10px;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(255, 215, 0, 0.5);
+    border-radius: 10px;
+
+    &:hover {
+      background: rgba(255, 215, 0, 0.7);
+    }
+  }
 }
 @media (max-width: 960px) {
   .container {
@@ -165,7 +186,9 @@
   }
 
   .skills-icons {
+    max-height: 400px;
     overflow-y: auto;
+    overflow-x: hidden;
     margin: auto;
   }
 }

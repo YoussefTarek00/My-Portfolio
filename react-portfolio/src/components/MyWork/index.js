@@ -18,21 +18,23 @@ const MyWork = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio-item-cta">
-                  <a
-                    href={github}
-                    className="btn"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <FontAwesomeIcon icon={faGithub} color="#000000" />
-                  </a>
+                  {github && (
+                    <a
+                      href={github}
+                      className="btn"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <FontAwesomeIcon icon={faGithub} color="#000000" />
+                    </a>
+                  )}
                   <a
                     href={demo}
                     className="btn "
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Demo
+                    {github ? 'Demo' : 'Visit'}
                   </a>
                 </div>
               </article>

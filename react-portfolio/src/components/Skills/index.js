@@ -1,7 +1,7 @@
 import Loader from 'react-loaders'
 import './index.scss'
-import { SiTailwindcss,SiTypescript,SiMui,SiReacthookform,SiWebpack,SiCanva, SiJest, SiBitbucket, SiNodedotjs, SiMongodb, SiExpress, SiTestinglibrary, SiJira, SiDocker, SiNginx, SiStorybook} from 'react-icons/si'
-import cv from '../../assets/cv/Y.T-CV.pdf'
+import { SiTailwindcss,SiTypescript,SiMui,SiReacthookform,SiWebpack,SiCanva, SiJest, SiBitbucket, SiNodedotjs, SiMongodb, SiExpress, SiTestinglibrary, SiJira, SiDocker, SiNginx, SiStorybook, SiNextdotjs, SiNestjs, SiGraphql, SiPostgresql, SiRedux, SiFirebase} from 'react-icons/si'
+import cv from '../../assets/cv/Youssef Tarek - Full Stack Software Engineer Resume.pdf'
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -32,24 +32,36 @@ const Skills = () => {
             </span>
           </h1>
           <p>
-            An Astonishing Web Developer skilled in technologies such as:
+            Full Stack Software Engineer with expertise in modern web technologies:
             <br />
             <span className="tech-tag">
-              HTML5, CSS3, JavaScript, TypeScript, React.Js, Node.js, Express.js, MongoDB,  ReactHookForm, Particles.js, Canvas API, Bootstrap, TailwindCss, Material UI, Sass, StoryBook, Design Patterns, SOLID Principles, Docker, Nginx, Webpack, PWAs, Debugging, Unit Test, Integration Test, React Testing Library, Jest, MSW, Atlassian Jira, Bitbucket, Git, GitHub.
+              Frontend: React.js, Next.js, Redux Toolkit, TypeScript, JavaScript (ES6+), HTML5, CSS3, SASS/SCSS, Material UI, Tailwind CSS, Shadcn/ui, Bootstrap 5, PWA/TWA, Storybook, React Hook Form, Formik
+              <br />
+              Backend: Node.js, Express.js, Nest.js, REST APIs, GraphQL, JWT, Firebase
+              <br />
+              Databases: MongoDB, PostgreSQL
+              <br />
+              Testing: Jest, React Testing Library, MSW
+              <br />
+              DevOps: Docker, Nginx, CI/CD Pipelines, Git, GitHub, Bitbucket, Linux, Webpack, Bitrise
+              <br />
+              Architecture: Clean Architecture, SOLID Principles, Design Patterns, System Design, Performance Optimization
+              <br />
+              AI & Automation: Custom ChatGPT Agents, AI Agents & NLP Intent Handling, Automation Workflows
             </span>
           </p>
           <p>
-            I’m not a designer but I have a good sense of aesthetics, and good
-            in responsive, mobile-first web design. I put special effort into
-            optimizing my code and providing the best user experience. I would
-            love to give you any kind of support also after the project's
-            completion. I guarantee a commitment during work on your project.
+            Specialized in building scalable SaaS platforms, enterprise systems,
+            and AI-powered automation solutions. Experienced in transforming web
+            applications into mobile apps using PWA, TWA, and Capacitor technologies.
+            Committed to writing clean, maintainable code and delivering
+            production-ready solutions.
           </p>
           <p>
             Visit my
             <a
               target="_blank"
-              href="https://www.linkedin.com/in/youssef-tarek-317ab125b/"
+              href="https://linkedin.com/in/youssefTarek-dev"
               rel="noreferrer"
             >
               LinkedIn
@@ -78,16 +90,34 @@ const Skills = () => {
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
             </div>
             <div className="icon">
+              <SiNextdotjs color="#000000" />
+            </div>
+            <div className="icon">
+              <SiRedux color="#764ABC" />
+            </div>
+            <div className="icon">
               <SiReacthookform color="#f50c95"  />
             </div>
             <div className="icon">
               <SiNodedotjs color="#68A063" />
             </div>
             <div className="icon">
+              <SiNestjs color="#E0234E" />
+            </div>
+            <div className="icon">
+              <SiGraphql color="#E10098" />
+            </div>
+            <div className="icon">
+              <SiFirebase color="#FFCA28" />
+            </div>
+            <div className="icon">
               <SiExpress color="#000000" />
             </div>
             <div className="icon">
               <SiMongodb color="#47A248" />
+            </div>
+            <div className="icon">
+              <SiPostgresql color="#336791" />
             </div>
             <div className="icon">
               <SiCanva color="#F06529"  />
