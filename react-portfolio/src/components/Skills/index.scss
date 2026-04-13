@@ -77,9 +77,13 @@
 }
 
 .tech-tag {
-  color: #ffd700;
+  color: #fff;
   margin-left: 3px;
   word-wrap: break-word;
+}
+
+.tech-tag .skill-title {
+  color: #ffd700;
 }
 
 .skills-container {

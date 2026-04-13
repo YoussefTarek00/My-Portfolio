@@ -34,21 +34,27 @@ const About = () => {
           </h1>
           <p>
             Full Stack Software Engineer with 4+ years of experience building
-            scalable web applications, SaaS platforms, and AI-powered systems.
-            Expert in React.js, Node.js, REST APIs, MongoDB, PostgreSQL, and
-            workflow automation.
+            scalable SaaS platforms, distributed systems, and AI-powered
+            applications.
           </p>
           <p align="LEFT">
-            Skilled in clean architecture, performance optimization, and
-            delivering maintainable, production-ready solutions. Passionate about
-            leveraging AI agents and automation to boost productivity and solve
-            complex business challenges.
+            I specialize in designing and delivering end-to-end systems — from
+            architecture and backend services to frontend interfaces and
+            production deployment. My work focuses on building maintainable,
+            high-performance, and scalable applications with real-world business
+            impact.
           </p>
           <p>
-            Experienced in developing multi-tenant SaaS platforms with analytics
-            dashboards and secure REST APIs. Built enterprise HR systems and
-            transformed web applications into deployable mobile apps for both
-            Android and iOS platforms using PWA, TWA, and Capacitor technologies.
+            I have hands-on experience building multi-tenant SaaS platforms,
+            real-time systems, and AI agent workflows integrated with communication
+            channels such as WhatsApp, Telegram, and email. I also design secure
+            REST APIs, microservices-based architectures, and production-grade
+            infrastructure using Docker, CI/CD pipelines, and cloud deployments.
+          </p>
+          <p>
+            Beyond development, I focus on system design, performance
+            optimization, and automation — leveraging AI to streamline workflows
+            and enhance product capabilities.
           </p>
         </div>
 

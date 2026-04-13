@@ -1,6 +1,32 @@
 import Loader from 'react-loaders'
 import './index.scss'
-import { SiTailwindcss,SiTypescript,SiMui,SiReacthookform,SiWebpack,SiCanva, SiJest, SiBitbucket, SiNodedotjs, SiMongodb, SiExpress, SiTestinglibrary, SiJira, SiDocker, SiNginx, SiStorybook, SiNextdotjs, SiNestjs, SiGraphql, SiPostgresql, SiRedux, SiFirebase} from 'react-icons/si'
+import {
+  SiAmazonaws,
+  SiBitbucket,
+  SiBitrise,
+  SiDocker,
+  SiExpress,
+  SiFastapi,
+  SiFirebase,
+  SiGraphql,
+  SiJest,
+  SiMongodb,
+  SiMui,
+  SiNestjs,
+  SiNextdotjs,
+  SiNginx,
+  SiNodedotjs,
+  SiOpenai,
+  SiPostgresql,
+  SiReacthookform,
+  SiRedis,
+  SiRedux,
+  SiSocketdotio,
+  SiStorybook,
+  SiTailwindcss,
+  SiTestinglibrary,
+  SiTypescript,
+} from 'react-icons/si'
 import cv from '../../assets/cv/Youssef Tarek - Full Stack Software Engineer Resume.pdf'
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -32,30 +58,65 @@ const Skills = () => {
             </span>
           </h1>
           <p>
-            Full Stack Software Engineer with expertise in modern web technologies:
+            Full Stack Software Engineer — technical skills and tooling:
+            <br />
             <br />
             <span className="tech-tag">
-              Frontend: React.js, Next.js, Redux Toolkit, TypeScript, JavaScript (ES6+), HTML5, CSS3, SASS/SCSS, Material UI, Tailwind CSS, Shadcn/ui, Bootstrap 5, PWA/TWA, Storybook, React Hook Form, Formik
+              <span className="skill-title">Frontend: </span>
+              React.js, React Native, Next.js, Redux Toolkit, TypeScript,
+              JavaScript (ES6+), HTML5, CSS3, SASS/SCSS, Material UI, Tailwind CSS,
+              shadcn/ui, Bootstrap 5, Storybook, Axios, React Hook Form, Formik
               <br />
-              Backend: Node.js, Express.js, Nest.js, REST APIs, GraphQL, JWT, Firebase
               <br />
-              Databases: MongoDB, PostgreSQL
+              <span className="skill-title">Mobile &amp; Cross-Platform: </span>
+              React Native, PWA, TWA (Android), Capacitor (iOS)
               <br />
-              Testing: Jest, React Testing Library, MSW
               <br />
-              DevOps: Docker, Nginx, CI/CD Pipelines, Git, GitHub, Bitbucket, Linux, Webpack, Bitrise
+              <span className="skill-title">Backend: </span>
+              Node.js, Express.js, NestJS, FastAPI, REST APIs, GraphQL
               <br />
-              Architecture: Clean Architecture, SOLID Principles, Design Patterns, System Design, Performance Optimization
               <br />
-              AI & Automation: Custom ChatGPT Agents, AI Agents & NLP Intent Handling, Automation Workflows
+              <span className="skill-title">DevOps &amp; Infrastructure: </span>
+              Docker, Nginx, Linux Server Administration, CI/CD Pipelines, Git,
+              GitHub, Bitbucket, Agile/Scrum, Bitrise (Mobile CI/CD), AWS, Contabo
+              <br />
+              <br />
+              <span className="skill-title">Databases &amp; Storage: </span>
+              MongoDB, PostgreSQL, Redis, MinIO (S3-compatible)
+              <br />
+              <br />
+              <span className="skill-title">Security &amp; Auth: </span>
+              JWT, Firebase Authentication, RBAC, reCAPTCHA, API Rate Limiting,
+              Helmet
+              <br />
+              <br />
+              <span className="skill-title">Testing &amp; Quality: </span>
+              Jest, React Testing Library, MSW
+              <br />
+              <br />
+              <span className="skill-title">Real-Time &amp; Systems: </span>
+              WebSockets, Socket.IO, Multi-tenant systems
+              <br />
+              <br />
+              <span className="skill-title">AI &amp; Automation: </span>
+              AI Agents, OpenAI API, Anthropic, NLP Workflows, Automation Systems
+              <br />
+              <br />
+              <span className="skill-title">
+                Architecture &amp; Engineering Practices:{' '}
+              </span>
+              Microservices Architecture, Clean Architecture, SOLID Principles, Design
+              Patterns, System Design, Debugging &amp; Performance Optimization
             </span>
           </p>
           <p>
-            Specialized in building scalable SaaS platforms, enterprise systems,
-            and AI-powered automation solutions. Experienced in transforming web
-            applications into mobile apps using PWA, TWA, and Capacitor technologies.
-            Committed to writing clean, maintainable code and delivering
-            production-ready solutions.
+            Full Stack Software Engineer with 4+ years of experience building
+            scalable SaaS platforms, enterprise systems, and AI-powered applications.
+            Experienced in owning products end-to-end — from business requirements
+            and system design to frontend, backend, and production deployment. Strong
+            expertise in React, Next.js, Node.js, and NestJS, with hands-on
+            experience in microservices, real-time systems, DevOps, and AI
+            integrations.
           </p>
           <p>
             Visit my
@@ -120,7 +181,10 @@ const Skills = () => {
               <SiPostgresql color="#336791" />
             </div>
             <div className="icon">
-              <SiCanva color="#F06529"  />
+              <SiRedis color="#DC382D" />
+            </div>
+            <div className="icon">
+              <SiFastapi color="#009688" />
             </div>
             <div className="icon">
               <FontAwesomeIcon icon={faBootstrap} color="#553C7B" />
@@ -144,7 +208,10 @@ const Skills = () => {
             <SiNginx color="#000000" />
             </div>
             <div className="icon">
-              <SiWebpack color="#1C78C0" />
+              <SiSocketdotio color="#010101" />
+            </div>
+            <div className="icon">
+              <SiAmazonaws color="#FF9900" />
             </div>
             <div className="icon">
             <SiTestinglibrary color='#e53935' />
@@ -153,10 +220,13 @@ const Skills = () => {
               <SiJest color="#C21325" />
             </div>
             <div className="icon">
-              <SiJira color="#1d5ecd" />
+              <SiOpenai color="#412991" />
             </div>
             <div className="icon">
               <SiBitbucket color="#1d5ecd" />
+            </div>
+            <div className="icon">
+              <SiBitrise color="#68387C" />
             </div>
             <div className="icon">
               <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />

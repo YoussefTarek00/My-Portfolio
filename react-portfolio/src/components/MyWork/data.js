@@ -22,10 +22,32 @@ import IMG19 from '../../assets/images/cruid.png'
 import IMG20 from '../../assets/images/image editor.png'
 
 import IMG21 from '../../assets/images/ofoq.png'
-import IMG22 from '../../assets/images/urtwin.png'
-import IMG23 from '../../assets/images/urtwinDashboard.png'
+import IMG22 from '../../assets/images/urtwinDashboard.png'
+import IMG23 from '../../assets/images/chat.urtwin.png'
+import IMG24 from '../../assets/images/urtwin.ai.png'
 
-export const data = [
+export const professionalExperience = [
+  {
+    id: -1,
+    image: IMG24,
+    title: 'DGTEC - Urtwin App | Multi-tenant SaaS Application',
+    github: '',
+    demo: 'https://urtwin.ai/',
+  },
+  {
+    id: -2,
+    image: IMG23,
+    title: 'DGTEC - Urtwin Chat | Real-time Messaging System for Multi-tenant SaaS Platform',
+    github: '',
+    demo: 'https://chat.urtwin.ai/en/login',
+  },
+  {
+    id: -3,
+    image: IMG22,
+    title: 'DGTEC - Urtwin Dashboard | Multi-tenant SaaS Platform with Analytics',
+    github: '',
+    demo: 'https://dashboard.urtwin.ai/',
+  },
   {
     id: 0,
     image: IMG21,
@@ -33,76 +55,63 @@ export const data = [
     github: '',
     demo: 'https://sso.orgarise.org/',
   },
-  {
-    id: -1,
-    image: IMG22,
-    title: 'DGTEC - Urtwin App | Multi-tenant SaaS Application',
-    github: '',
-    demo: 'https://app.urtwin.ai/',
-  },
-  {
-    id: -2,
-    image: IMG23,
-    title: 'DGTEC - Urtwin Dashboard | Multi-tenant SaaS Platform with Analytics',
-    github: '',
-    demo: 'https://dashboard.urtwin.ai/',
-  },
+]
 
-
+export const practices = [
   {
     id: 1,
     image: IMG1,
-    title: 'React Form using MUI, React.TS, React-Hook-Form',
+    title: 'React Hook Form Practice | Form Validation with TypeScript & MUI',
     github: 'https://github.com/YoussefTarek00/Mui-React-Hook-Form-TS ',
     demo: ' https://mui-react-hook-form-ts.vercel.app/',
   },
   {
     id: 2,
     image: IMG2,
-    title:
-      'Expenses-App using Html, MUI, React.js,React-Hook-Form, JSON-server API',
+    title: 'Expenses Tracker | CRUD App with Material UI & JSON Server',
     github: 'https://github.com/YoussefTarek00/React-Material-UI ',
     demo: ' https://react-material-ui-blue.vercel.app/',
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Fylo Website usingHtml,TailwindCss, React.js',
+    title: 'Fylo Landing Page Clone | Responsive UI with Tailwind CSS',
     github: 'https://github.com/YoussefTarek00/React-TailwindCss ',
     demo: 'http://gifted-account.surge.sh/',
   },
   {
     id: 4,
     image: IMG4,
-    title:'React Form contains all React-Hook-Form features using Css, React.TS, JSON-Placeholder API',
+    title:
+      'React Hook Form Sandbox | Field Patterns with TypeScript & JSON Placeholder',
     github: 'https://github.com/YoussefTarek00/React-Hook-Form-TS ',
     demo: 'https://react-hook-form-ts.vercel.app/',
   },
   {
     id: 5,
     image: IMG5,
-    title: 'React Form using Html,Css,React.js, React-Hook-Form',
+    title: 'React Hook Form Basics | Simple Forms with Plain CSS',
     github: 'https://github.com/YoussefTarek00/React-Hook-Form ',
     demo: 'https://react-hook-form-pi.vercel.app/',
   },
   {
     id: 6,
     image: IMG6,
-    title: 'To-Do-App using Html, Css, React.js',
+    title: 'ToDo App | State Management & CRUD Practice in React',
     github: 'https://github.com/YoussefTarek00/ToDoList-React.Js ',
     demo: 'http://internal-summer.surge.sh',
   },
   {
     id: 7,
     image: IMG7,
-    title: 'Shopping-Cart using Html, Css, React.js, Json-Server API',
+    title: 'Shopping Cart | React E-Commerce Flow with API Integration',
     github: 'https://github.com/YoussefTarek00/shopping-cart-React.js ',
     demo: 'http://miniature-business.surge.sh',
   },
   {
     id: 8,
     image: IMG8,
-    title: 'Movie-App using Html, Css,React.js, OMDb API',
+    title: 'Movie Explorer | API-Based Search App using OMDb',
     github: 'https://github.com/YoussefTarek00/Movie-App-React.js ',
     demo: 'http://numerous-skin.surge.sh',
   },
@@ -110,14 +119,14 @@ export const data = [
   {
     id: 9,
     image: IMG9,
-    title: 'E-Commerce using Html, Bootstrap, React.js, FakeStore API',
+    title: 'E-Commerce Catalog | Product Grid & REST Data in React',
     github: 'https://github.com/YoussefTarek00/E-commerce-React.js ',
     demo: 'http://shy-cellar.surge.sh',
   },
   {
     id: 10,
     image: IMG10,
-    title: 'Cruid-App using Html, Bootstrap, React.js, FakeStore API',
+    title: 'CRUD Admin Practice | Records Table with REST API',
     github: 'https://github.com/YoussefTarek00/Cruid-app-React.Js ',
     demo: 'http://hateful-goose.surge.sh',
   },
@@ -125,14 +134,14 @@ export const data = [
   {
     id: 11,
     image: IMG11,
-    title: 'Cart-App using Html, Css,Bootstrap, React.js, FakeStore API',
+    title: 'Product Cart | Checkout Flow with REST Data',
     github: 'https://github.com/YoussefTarek00/Cart-App-React.js ',
     demo: 'http://joo-app.surge.sh',
   },
   {
     id: 12,
     image: IMG12,
-    title: 'Authentication using Html, Css, React.js, Firebase',
+    title: 'Auth Flow Mini App | Firebase Sign-In in React',
     github: 'https://github.com/YoussefTarek00/Authentication-React.js ',
     demo: 'http://supreme-magic.surge.sh',
   },
@@ -140,21 +149,21 @@ export const data = [
   {
     id: 13,
     image: IMG13,
-    title: 'To-Do-List using Html, Css, JavaScript ',
+    title: 'To-Do List | DOM Manipulation in Vanilla JavaScript',
     github: 'https://github.com/YoussefTarek00/To-Do-App ',
     demo: 'https://yousseftarek00.github.io/To-Do-App/',
   },
   {
     id: 14,
     image: IMG14,
-    title: 'Creative Scrolling Design using Html, Css, JavaScript',
+    title: 'Scroll Layout Study | CSS Transforms & Sections',
     github: 'https://github.com/YoussefTarek00/Creative-Scrolling-Website ',
     demo: 'https://yousseftarek00.github.io/Creative-Scrolling-Website/',
   },
   {
     id: 15,
     image: IMG15,
-    title: 'Drag and Drop Items using Html, Css, JavaScript',
+    title: 'Drag & Drop Board | Pointer Events & List State',
     github: 'https://github.com/YoussefTarek00/Drag-and-Drop ',
     demo: 'https://yousseftarek00.github.io/Drag-and-Drop/',
   },
@@ -162,14 +171,14 @@ export const data = [
   {
     id: 16,
     image: IMG16,
-    title: 'Creative Hover using Html, Css, JavaScript',
+    title: 'Hover Menu | CSS Transitions & Layered UI',
     github: 'https://github.com/YoussefTarek00/creative-hover-menu',
     demo: 'https://yousseftarek00.github.io/creative-hover-menu/',
   },
   {
     id: 17,
     image: IMG17,
-    title: 'Creative Design using Html, Css, JavaScript',
+    title: 'Creative Layout | HTML/CSS Composition Practice',
     github: 'https://github.com/YoussefTarek00/Creative-Design',
     demo: 'https://yousseftarek00.github.io/Creative-Desgin/',
   },
@@ -177,14 +186,14 @@ export const data = [
   {
     id: 18,
     image: IMG18,
-    title: 'Git Repos using Html, Css, JavaScript ',
+    title: 'GitHub Repo Finder | Fetching & Displaying Public API Data',
     github: 'https://github.com/YoussefTarek00/GitHub-Repo-App',
     demo: 'https://yousseftarek00.github.io/GitHub-Repo-App/',
   },
   {
     id: 19,
     image: IMG19,
-    title: 'Cruid App using Html, Css, JavaScript ',
+    title: 'Records Table | Vanilla JS CRUD',
     github: 'https://github.com/YoussefTarek00/Cruds',
     demo: 'https://yousseftarek00.github.io/Cruds/',
   },
@@ -192,8 +201,10 @@ export const data = [
   {
     id: 20,
     image: IMG20,
-    title: 'Image Editor using Html, Css, JavaScript',
+    title: 'Image Tweaks | Canvas Filters & Controls Practice',
     github: 'https://github.com/YoussefTarek00/Image-Editor',
     demo: 'https://yousseftarek00.github.io/Image-Editor/',
   },
 ]
+
+export const data = [...professionalExperience, ...practices]
